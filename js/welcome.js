@@ -15,7 +15,7 @@ class WelcomeScreen{
               this.start.hide();
               this.customise.hide();
               
-              var header_of_chat = createSprite(windowWidth/2 - 240, windowHeight/2 - 260, windowWidth, windowHeight/6);
+              var header_of_chat = createSprite(windowWidth/2, windowHeight/2 - 260, windowWidth, windowHeight/6);
               header_of_chat.shapeColor = "red";
 
               drawSprites();
