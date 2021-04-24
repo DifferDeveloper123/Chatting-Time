@@ -6,7 +6,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(windowWidth - 500, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 
   welcome = new WelcomeScreen();
 
